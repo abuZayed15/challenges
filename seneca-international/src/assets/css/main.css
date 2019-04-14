@@ -1,0 +1,88 @@
+html {
+	font-family: sans-serif;
+}
+::selection{
+	background:#da291c;
+}
+
+body.custom-background { 
+	background-image: url('http://open2.senecac.on.ca/sites/nifm/wp-content/uploads/sites/74/2018/05/Handsshaking90.png'); 
+	background-repeat: repeat; 
+	background-position: top center; 
+	background-attachment: fixed; 
+}
+	
+::selection{
+	color:#FFF;
+}
+	
+::-moz-selection{
+	background:#da291c;
+}
+	
+::-moz-selection{
+	color:#FFF;
+}
+	
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a, .header-top a:hover, .site-branding h1.site-title a, #colophon .widget_calendar table a:hover{
+	color:#da291c;
+}
+	
+.read-more, .read-more.black:hover, .pager li > a:hover, .pager li > a:focus, #home-slider .slide-content .btn, table thead, a#scroll-top, .post-meta-info .entry-meta .comments_count, body input[type="submit"]:hover, body input[type="submit"]:focus, .mean-container .mean-bar, .mean-container .mean-bar .mean-nav ul li a.meanmenu-reveal, .mean-container .mean-bar .mean-nav ul li a.mean-expand:hover{
+	background-color:#da291c;
+}
+	
+nav.main-menu ul > li:hover > a, nav.main-menu ul > .current-menu-item > a, nav.main-menu ul .current_page_item > a, nav.main-menu ul > li:hover > a, nav.main-menu ul > .current-menu-item > a, .mean-container a.meanmenu-reveal, .comment a.btn, .error-404, .mean-container .mean-bar .meanmenu-reveal {
+	background: black;
+}
+
+ul.nav.navbar-nav li {
+	background-color: black;
+	list-style: none;
+}
+	
+.wp-caption, .header-top, nav.main-menu ul > li ul, .pager li > a:hover, .pager li > a:focus, #colophon, .entry-content blockquote, .post-meta-info .entry-meta, .comment a.btn, body input[type="text"]:focus, body input[type="email"]:focus, body input[type="url"]:focus, body input[type="tel"]:focus, body input[type="number"]:focus, body input[type="date"]:focus, body input[type="range"]:focus, body input[type="password"]:focus, body input[type="text"]:focus, body textarea:focus, body .form-control:focus, select:focus {
+	border-color:#da291c;
+}
+	
+.nav > li > a:hover, .nav > li > a:focus, .post-meta-info .entry-meta, .comment-form .alert-info{
+	background-color:#ffe7da;
+}
+	
+.entry-content blockquote{
+	background:#ffe7da;
+}
+	
+.error-404 a{
+	color:#ffe7da;
+}
+	
+.comment-form .alert-info{
+	border-color:#ffe7da;
+}
+	
+.comment-form .alert-info{
+	border-color:#ffe7da;
+}
+	
+.comment-form .alert-info{
+	color:#9e0000;
+}
+	
+@media (max-width: 991px) and (min-width: 0px) {
+	.post-meta-info .entry-meta .comments_count, .post-meta-info .entry-meta {
+				background: none;
+				border-color: transparent;
+				background-color: transparent;
+			}
+			.post-meta-info .entry-meta .comments_count a  {
+				background: none;
+			}
+}
+
+img#image-home {
+	width:50%;
+	height:100%;
+	position:relative;
+	float: left;
+}
