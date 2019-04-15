@@ -1,0 +1,20 @@
+div#image-home img#image-home{
+    float:left;
+    padding-right: 15px;
+}
+
+div#text-home {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: right;
+    font-family: 'Open Sans', sans-serif, arial;
+    font-size: 13px;
+    color:#666;
+    word-wrap: break-word;
+    padding-left: 15px;
+}
+
+div#first-row, div#second-row, div#third-row {
+    margin: 40px;
+}
