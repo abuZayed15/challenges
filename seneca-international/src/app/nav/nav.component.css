@@ -6,15 +6,28 @@ div ul {
 
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
-    
 }
 
-select::-ms-expand {	display: none; }
-select{
-    -webkit-appearance: none;
-    appearance: none;
+.dropdown:hover .dropbtn {
+  background-color: red;
+} 
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+.nav-pills .nav-link {
+  font-size: 12px;
 }
 
+.dropdown-item {
+  font-size: 13px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
 .container .dropdown .dropdown-menu a:hover
 {
   color: #fff;

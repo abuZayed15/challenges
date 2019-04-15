@@ -8,6 +8,13 @@ body {
 	background:#da291c;
 }
 
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
 div.custom-background { 
 	background-image: url('http://open2.senecac.on.ca/sites/nifm/wp-content/uploads/sites/74/2018/05/Handsshaking90.png'); 
 	background-repeat: repeat; 

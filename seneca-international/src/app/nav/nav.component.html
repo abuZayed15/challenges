@@ -1,23 +1,23 @@
 <div id="main-header" class="shadow-sm p-3 mb-5 bg-white fixed-top">
   <div class="container">
     <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white">
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light" style="background-color: white">
       <a class="navbar-brand" href="#">
         <img src="assets/images/Senecalogo-01.png" width="205" height="75" alt="Home" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse"></button>
-
-      <div class="collapse navbar-collapse" data-hover="dropdown" data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft">
+      <div id="nav-menu" class="collapse navbar-collapse" data-hover="dropdown"
+        data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft">
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
           <li class="nav-item active">
-            <a class="nav-link text-dark focus" href="#">Home</a>
+            <a class="nav-link text-dark focus dropbtn" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Media Coverage</a>
+            <a class="nav-link text-dark dropbtn" href="#">Media Coverage</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
+            <a class="nav-link text-dark dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Pre-Arrival
             </a>
             <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
@@ -35,8 +35,8 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
+            <a class="nav-link text-dark dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               NIFM PGDM
             </a>
             <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
@@ -54,8 +54,8 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
+            <a class="nav-link text-dark dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               NIFM PTC
             </a>
             <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
@@ -73,8 +73,8 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
+            <a class="nav-link text-dark dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               NIFM MDP
             </a>
             <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
@@ -92,8 +92,8 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
+            <a class="nav-link text-dark dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               NIFM FinTech
             </a>
             <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
@@ -111,11 +111,11 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Contact Us</a>
+            <a class="nav-link text-dark dropbtn" href="#">Contact Us</a>
           </li>
         </ul>
-        <div class="header-search pull-right">
-            <div id="header-search-button"><i class="fa fa-search"></i></div>
+        <div class="header-search pull-right" style="padding:20px;">
+          <div id="header-search-button"><i class="fa fa-search"></i></div>
         </div>
       </div>
     </nav>
