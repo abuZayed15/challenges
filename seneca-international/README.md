@@ -7,8 +7,8 @@ https://whispering-castle-49717.herokuapp.com/
 Replicate the given page of the website.
 
 ### Condition
-[-] Dropdown menus without linking to other pages
-[-] Everything else the same
+* Dropdown menus without linking to other pages
+* Everything else the same
 
 ### Time-taken
 
